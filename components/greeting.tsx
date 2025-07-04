@@ -28,11 +28,11 @@ export default function Greeting() {
 
   return (
     <div className="text-center">
-      <h1 className="text-5xl font-bold tracking-tight">Happy 4th, Jason!</h1>
-      <p className="text-gray-500 mt-2">
+      <h1 className="font-bold tracking-tight text-4xl text-left">Happy 4th, Jason!</h1>
+      <p className="text-gray-500 mt-2 text-left">
         {formattedDate} &nbsp; {formattedTime}
       </p>
-      <div className="mt-12 space-y-4 w-full max-w-sm mx-auto text-left">
+      <div className="space-y-4 w-full max-w-sm mx-auto text-left mt-6">
         <div className="flex items-center justify-between text-lg">
           <span>Move</span>
           <ShortcutDisplay keys={["↑", "↓"]} />
